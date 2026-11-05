@@ -81,7 +81,7 @@ biggest_amount = max(categories.values())
 print("Biggest Category: ")
 for key, value in categories.items():
     if value == biggest_amount:
-        print(f": {key} (£{value})")
+        print(f"{key} (£{value})")
 
 # Another for loop that prints key and value pairs within the categories dictionary only if the expense is more than 0
 print("Spending by category total: ")
